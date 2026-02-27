@@ -23,19 +23,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: GhadaGame-APK
-          path: app/build/outputs/apk/debug/app-debug.apk
-```
-```
-5. اضغط "Commit changes" الأخضر
-```
-
----
-
-## الخطوة 4 — تحميل APK ✅
-```
-1. اضغط "More" (الذي تراه في صورتك)
-2. اضغط "Actions" ⚡
-3. انتظر 3-5 دقائق حتى يظهر ✅ أخضر
-4. اضغط على اسم الـ Build
-5. اسحب للأسفل → Artifacts
-6. اضغط "GhadaGame-APK" ← APK جاهز! 🎮
+          path: app/build/outputs/apk/debug/app-debug.a
